@@ -18,7 +18,7 @@ font-family: 'Roboto', sans-serif;
 .main {
     height: 1400px;
     color: white;
-    font-size: large;
+    
     font-style: bold;
     font-weight: bolder;
     grid-row: 1/4;
@@ -29,12 +29,23 @@ font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 30px;
     
+    
+    
 }
 .dashboard {
 
     font-size: larger;
     padding: 25px;
     position: relative;
+    
+}
+
+.bullseye-arrow {
+
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 6px;
     
 }
 .main-sectional-one {
@@ -48,10 +59,12 @@ font-family: 'Roboto', sans-serif;
 
     grid-row: 2/5;
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 55px);
     position: relative;
     left: 50px;
-    font-size: 30px;
+    font-size: 25px;
+    
+
 }
 
 
@@ -62,7 +75,7 @@ font-family: 'Roboto', sans-serif;
     grid-template-rows: repeat(5, 1fr);
     position: relative;
     left: 50px;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 .top-bar-section {
